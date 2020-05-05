@@ -1,0 +1,6 @@
+flask
+
+gunicorn
+
+pylint
+pylint-quotes

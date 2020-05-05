@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Flask Gunicorn Bootstrap Demo</title>
+        <meta name="theme-color" content="#B0197E">
+        <link rel="stylesheet" href="/static/style.css" media="screen">
+    </head>
+    <body>
+        <div class="top">
+            <h3>Hello, World</h3>
+        </div>
+        {% if commit_hash %}
+        <div class="git">
+            <p>
+            <a href="https://github.com/mxmeinhold/flask-gunicorn-demo/tree/{{ commit_hash }}">Check out this project on GitHub ({{ commit_hash }})</a>
+            </p>
+        </div>
+        {% endif %}
+    </body>
+</html>
