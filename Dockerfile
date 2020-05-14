@@ -1,4 +1,4 @@
-FROM python:3.7-stretch
+FROM python:3.8-alpine
 MAINTAINER Max Meinhold <mxmeinhold@gmail.com
 
 RUN mkdir /opt/demo
