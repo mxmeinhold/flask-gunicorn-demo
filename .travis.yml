@@ -1,8 +1,12 @@
 language: python
 python:
   - "3.8"
+services:
+  - "docker"
 
 install:
   - "pip install -r requirements.txt"
 script:
   - "pylint --load-plugins pylint_quotes demo"
+  - "docker build -t demo ."
+
