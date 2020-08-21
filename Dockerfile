@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-MAINTAINER Max Meinhold <mxmeinhold@gmail.com
+MAINTAINER Max Meinhold <mxmeinhold@gmail.com>
 
 RUN mkdir /opt/demo
 
