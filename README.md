@@ -5,6 +5,8 @@ It includes a basic Dockerfile, a linting demonstration using Pylint, and a Trav
 
 This is not an in depth guide in how these tools work, but a basic starting point and reference.
 
+Make sure to change my name and email if you use this template, especially in the license.
+
 
 ## Setup
 Locally running this application should be pretty simple.
