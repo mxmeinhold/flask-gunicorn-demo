@@ -23,5 +23,5 @@ Locally running this application should be pretty simple.
 
 ## Linting
 This demo uses pylint.
-Travis CI will automatically run pylint on commits and PRs, but you can also run pylint manually, using `pylint --load-plugins pylint_quotes demo`.
-The pylint_quotes plugin is loaded to ensure standardised quotation mark formats.
+Travis CI will automatically run pylint on commits and PRs, but you can also run pylint manually, using `pylint demo`.
+The pylint_quotes plugin is loaded by [the pylintrc](./.pylintrc) and will ensure standardised quotation mark formats.
