@@ -1,15 +1,13 @@
 FROM python:3.8-alpine
-MAINTAINER Max Meinhold <mxmeinhold@gmail.com>
-
-RUN mkdir /opt/demo
-
-ADD requirements.txt /opt/demo
+LABEL maintainer="Max Meinhold <mxmeinhold@gmail.com>"
 
 WORKDIR /opt/demo
 
+COPY requirements.txt .
+
 RUN pip install -r requirements.txt
 
-ADD . /opt/demo
+COPY . .
 
 RUN ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 
